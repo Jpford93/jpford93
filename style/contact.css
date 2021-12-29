@@ -11,6 +11,7 @@ header {
     display: flex;
     gap: 200px;
     justify-content: space-evenly;
+    background-color: #393E46;
 }
 
 .logo {
@@ -23,6 +24,11 @@ nav ul {
     padding: 30px 0 30px 0;
     gap: 30px;
     flex-direction: row;
+}
+
+nav li {
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -53,6 +59,8 @@ footer {
     justify-content: space-evenly;
     gap: 200px;
     padding: 40px 0 40px 0;
+    background-color: #393E46;
+    color: #fff;
 }
 
 .footer-menu ul {

@@ -11,6 +11,7 @@ header {
     display: flex;
     gap: 200px;
     justify-content: space-evenly;
+    background-color: #393E46;
 }
 
 .logo {
@@ -25,11 +26,17 @@ nav ul {
     flex-direction: row;
 }
 
+nav li {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /*Introduction*/
 
 #intro-section {
     padding: 20px 0 60px 0;
+    background-color: #F6F6F6;
 }
 
 .cover img {
@@ -37,19 +44,31 @@ nav ul {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 0 20px 0;
+}
+
+.title-intro {
+    color: #40A8C4;
 }
 
 .intro {
     padding: 20px 0 0 0;
     text-align: center;
     line-height: 1.5;
+    color: #012443;
 }
 
 
 /*Projects*/
 
+#project-section {
+    background-color: #8FC1D4;
+    padding: 20px 0 20px 0;
+}
+
 .project-title {
     text-align: center;
+    color: #fff;
 }
 
 .project-background {
@@ -63,8 +82,15 @@ nav ul {
 
 /*Companies*/
 
+#companies-section {
+    padding: 30px 0 30px 0;
+    color: #012443;
+    background-color: #F6F6F6
+}
+
 .company-container {
     text-align: center;
+    color: #40A8C4;
 }
 
 .brands {
@@ -82,6 +108,8 @@ nav ul {
 .fun-fact-area {
     text-align: center;
     padding: 40px 0 40px 0;
+    background-color: #8FC1D4;
+    color: #fff;
 }
 
 
@@ -89,14 +117,15 @@ nav ul {
 
 #connect {
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px 0 30px 0;
+    background-color: #F6F6F6;
 }
 
 .contact,
 .social-connect {
     padding: 20px 0 20px 0;
+    color: #40A8C4;
 }
 
 
@@ -108,6 +137,8 @@ footer {
     justify-content: space-evenly;
     gap: 200px;
     padding: 40px 0 40px 0;
+    background-color: #393E46;
+    color: #fff;
 }
 
 .footer-menu ul {
