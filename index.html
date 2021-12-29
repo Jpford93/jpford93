@@ -90,12 +90,18 @@
             </div>
         </div>
     </div>
-    <div id="fun-fact">
+    <div id="fact-base">
         <div class="fun-fact-area">
             <h2>Click to learn some fun facts about Jamarr</h2>
-            <p>Javascript area</p>
+            <canvas id="funFact" width="500px" height="100px">
+                This text shows up if the canvas element is  not supported
+            </canvas>
+            <div id="buttonContainer">
+                <button onclick="getKnow()">Get to know me!</button>
+            </div>
         </div>
     </div>
+    <script src="test.js"></script>
     <div id="connect">
         <div class="container-1">
             <div class=contact>
