@@ -6,7 +6,7 @@ function randomParty() {
 let sentences = [
     'I started coding in 2008',
     'I have been graphic designing for 11 years.',
-    'My mother inspired to get into fashion.',
+    'My mother inspired me to get into fashion.',
 ]
 
 function getKnow() {
