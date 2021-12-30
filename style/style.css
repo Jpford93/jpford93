@@ -17,6 +17,10 @@ li {
     font-family: 'Noto Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /*Header*/
 
@@ -44,6 +48,10 @@ nav ul {
 nav li {
     text-decoration: none;
     color: #fff;
+}
+
+nav li:hover {
+    color: #40A8C4;
 }
 
 
@@ -80,6 +88,10 @@ nav li {
     text-align: center;
     line-height: 1.5;
     color: #012443;
+}
+
+.intro-words {
+    margin: 0 60px 0 60px;
 }
 
 
@@ -145,6 +157,12 @@ button {
     width: 200px;
     border-radius: 20px;
     cursor: pointer;
+    background-color: #FF847C;
+    color: #F6F6F6;
+}
+
+button:hover {
+    background-color: #393E46;
 }
 
 
@@ -174,6 +192,14 @@ button {
     grid: 60px;
 }
 
+i {
+    color: #40A8C4;
+}
+
+i:hover {
+    color: #012443;
+}
+
 
 /*Footer*/
 
@@ -193,6 +219,15 @@ footer {
     flex-direction: row;
     gap: 30px;
     padding-left: 0;
+}
+
+.footer-menu li {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu li:hover {
+    color: #40A8C4;
 }
 
 

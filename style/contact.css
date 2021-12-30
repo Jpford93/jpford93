@@ -18,6 +18,10 @@ li {
     font-family: 'Noto Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /*Header*/
 
@@ -45,6 +49,10 @@ nav ul {
 nav li {
     text-decoration: none;
     color: #fff;
+}
+
+nav li:hover {
+    color: #40A8C4;
 }
 
 
@@ -155,6 +163,15 @@ footer {
     flex-direction: row;
     gap: 30px;
     padding-left: 0;
+}
+
+.footer-menu li {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu li:hover {
+    color: #40A8C4;
 }
 
 

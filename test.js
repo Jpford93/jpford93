@@ -5,7 +5,7 @@ function randomParty() {
 
 let sentences = [
     'I started coding in 2008',
-    'I have been graphic designing for 11 years.',
+    'I have been doing graphic designing for 11 years.',
     'My mother inspired me to get into fashion.',
 ]
 
